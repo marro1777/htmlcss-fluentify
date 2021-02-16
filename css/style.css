@@ -1,0 +1,183 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER START */
+
+.button {
+    border-radius: 5px;
+    background-color: green;
+    border-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    height: 550px;
+    background-color: blue;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 135% 110%;
+}
+
+.logo {
+    width: 10%;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+.middle-menu {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.right-menu {
+    width: 40%;
+    text-align: right;
+}
+
+.menu {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.menu .login {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu .button {
+    padding: 10px 20px;
+}
+
+.slogan {
+    color: white;
+    margin-top: 15%;
+    width: 30%;
+}
+
+.central-text {
+    height: 150px;
+    background-color: grey;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 50px;
+}
+
+h3 {
+    color: lightgrey;
+}
+
+/* MAIN START */
+
+.col-left,
+.col-right {
+    width: 33.3%;
+}
+
+.col-middle {
+    width: 33.3%;
+    padding: 20px; 20px;
+}
+
+.col-left img {
+    width: 40%;
+    margin: 10px auto;
+}
+
+.col-middle img {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.col-right img{
+    width: 40%;
+    margin: 10px auto;
+}
+
+.description {
+    text-align: center;
+    color: lime;
+}
+
+.middle {
+    padding: 15px 0;
+}
+
+.right {
+    padding: 25px 0;
+}
+
+.hr-center {
+    width: 20%;
+    margin: 10px auto;
+}
+
+.hr-left {
+    width: 20%;
+    margin: 25px auto;
+}
+
+.hr-right {
+    width: 20%;
+    margin: auto; 
+}
+
+.writing-right,
+.writing-middle,
+.writing-left {
+    color: grey;
+    text-align: center;
+}
+
+.writing-middle {
+    padding: 20px 0;
+}
+
+.writing-right {
+    padding: 35px 0;
+}
